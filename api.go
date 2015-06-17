@@ -54,7 +54,7 @@ func NewClient(akey string, skey string) (*Client, error) {
 	client := Client{
 		AKey: akey,
 		SKey: skey,
-		URL:  "https://api.dnsmadeeasy.com/V2.0",
+		URL:  "http://api.dnsmadeeasy.com/V2.0",
 		HTTP: http.DefaultClient,
 	}
 	return &client, nil

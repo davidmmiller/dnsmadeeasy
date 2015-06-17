@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	dme "github.com/soniah/dnsmadeeasy"
+	dme "github.com/davidmmiller/dnsmadeeasy"
 	"log"
 	"os"
 )
